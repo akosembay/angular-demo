@@ -56,6 +56,14 @@ body, input[type="text"], button {
   text-decoration: none;
 }
 
+.bottom-row {
+  height: 250px;
+}
+
+.bottom-row a {
+  position: absolute;
+  bottom: 10px;
+}
 /* everywhere else */
 * {
   font-family: Arial, Helvetica, sans-serif;
