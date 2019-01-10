@@ -1,0 +1,62 @@
+/* You can add global styles to this file, and also import other style files */
+/* Applicationbadge-wide Styles */
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+h2, h3 {
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+body {
+  margin: 2em;
+}
+body, input[type="text"], button {
+  color: #888;
+  font-family: Cambria, Georgia;
+}
+
+.selected {
+  background: gray;
+  color: white;
+}
+
+.menu-btn {
+  padding: 10px;
+  background-color: black;
+  margin: 20px 20px 20px 0;
+  float: left;
+  width: 150px;
+  text-align: center;
+}
+
+.menu-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.top-heroes-btn {
+  float: left;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-width: 2px;
+  border-style: solid;
+  text-align: center;
+  background-color: rgb(66, 134, 244);
+  color: white;
+}
+.top-heroes-btn h4{
+  line-height: 130px;
+}
+
+.a-no-decoration {
+  text-decoration: none;
+}
+
+/* everywhere else */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
